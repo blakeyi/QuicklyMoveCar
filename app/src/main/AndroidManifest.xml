@@ -8,6 +8,7 @@
     <!-- 表明应用需要电话硬件 -->
     <uses-feature android:name="android.hardware.telephony" android:required="true" />
 
+    <uses-permission android:name="android.permission.VIBRATE" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
